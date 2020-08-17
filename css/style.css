@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width:  70%;
+    margin: 0 auto;
+}
+
+.bg-header{
+    background-color: #000;
+}
+
+
+.flex{
+    width: ;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+.margin-top-30px{
+    margin-top: 30px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.header {
+    padding: 3rem 0 0 0; 
+}
+
+
+.menu a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border-right: 1px solid rgba(95, 95, 95, 0.616);
+    padding: 6rem 2rem;   
+}
+
+.menu a:first-of-type{
+    border-left: 1px solid rgba(95, 95, 95, 0.616);
+}
+
+.box-gray{
+    width: 100%;
+    height: 20px;
+    background-color: #444444;
+}
+
+.menu-lateral{
+    width: 25%;
+    box-shadow: 1px 1px 2px rgb(182, 181, 181);
+    min-height: 180px;
+}
+
+.menu-lateral h2{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #000;
+}
+
+.menu-lateral a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid rgba(97, 97, 97, 0.377);
+}
+
+.menu-lateral a:last-of-type{
+    border-bottom: none;
+}
+
+.main{
+    width: 70%;
+}
+
+.main h1{
+    margin-top: 20px;
+}
+
+.main p{
+    margin:  20px 0;
+}
+
+.red-btn{
+    display: block;
+    background-color: #b20000;
+    color: #fff;
+    width: 30%;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+
+
+
+
+
