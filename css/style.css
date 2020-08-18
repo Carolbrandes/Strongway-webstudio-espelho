@@ -1,7 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dddddd;
+    height: 100%;
 }
 
 .container{
@@ -9,45 +15,31 @@
     margin: 0 auto;
 }
 
-.bg-header{
+.header-bg{
     background-color: #000;
 }
 
-
-.flex{
-    width: ;
-    height: 150px;
+.header-container{
+    height: 25vh;
     display: flex;
     justify-content: space-evenly;
-}
-
-.overflow{
     overflow: hidden;
 }
 
-.margin-top-30px{
-    margin-top: 30px;
-}
-
-.space-between{
-    justify-content: space-between;
-}
-
 .header {
-    padding: 3rem 0 0 0; 
+    padding: 4rem 0 0 0; 
 }
 
-
-.menu a{
+.header-menu a{
     display: inline-block;
     color: #fff;
     text-decoration: none;
-    border-right: 1px solid rgba(95, 95, 95, 0.616);
+    border-right: 1px solid rgba(31, 31, 31, 0.616);
     padding: 6rem 2rem;   
 }
 
-.menu a:first-of-type{
-    border-left: 1px solid rgba(95, 95, 95, 0.616);
+.header-menu a:first-of-type{
+    border-left: 1px solid rgba(31, 31, 31, 0.616);
 }
 
 .box-gray{
@@ -56,21 +48,40 @@
     background-color: #444444;
 }
 
+.conteudo-principal-bg{
+    background-color: #fff;
+   margin-bottom: 40px;
+    -webkit-box-shadow: 0.5px 5px 7px 3px rgba(117,117,117,1);
+    -moz-box-shadow: 0.5px 5px 7px 3px rgba(117,117,117,1);
+    box-shadow: 0.5px 5px 7px 3px rgba(117,117,117,1);
+}
+
+.conteudo-principal-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0 ;
+    margin-bottom: 20px;
+}
+
 .menu-lateral{
     width: 25%;
-    box-shadow: 1px 1px 2px rgb(182, 181, 181);
-    min-height: 180px;
+    height: 190px;
+    -webkit-box-shadow: 0.5px 2px 7px 3px rgba(179,179,179,1);
+    -moz-box-shadow: 0.5px 2px 7px 3px rgba(179,179,179,1);
+    box-shadow: 0.5px 2px 7px 3px rgba(179,179,179,1);
+   margin-left: 1rem;
 }
 
 .menu-lateral h2{
     font-size: 1rem;
     padding: 0.5rem 1rem;
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid #9e9b9b;
+    font-weight: 900;
 }
 
 .menu-lateral a{
     display: block;
-    color: #000;
+    color: #555555;
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-bottom: 1px solid rgba(97, 97, 97, 0.377);
@@ -86,10 +97,14 @@
 
 .main h1{
     margin-top: 20px;
+    font-size:  3rem;
 }
 
 .main p{
     margin:  20px 0;
+    line-height: 22px;
+    width: 90%;
+    color: #555555;
 }
 
 .red-btn{
@@ -102,15 +117,19 @@
     box-sizing: border-box;
     text-decoration: none;
     text-align: center;
-    margin: 20px 0;
+    margin: 30px 0;
     border-radius: 10px;
     font-weight: bold;
     font-size: 0.8rem;
     letter-spacing: 0.1rem;
 }
 
+.footer{
+    margin-bottom:  200px;
+}
 
-
-
-
-
+.footer p{
+    color: #444444;
+    font-size: 0.8rem;
+    text-align: center;
+}
